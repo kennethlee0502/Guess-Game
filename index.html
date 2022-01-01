@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Guessing Game</title>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <body>
+    <div id="app">
+
+
+    <div class="deconstructed">
+      DECONSTRUCTED
+      <div>My First Guessing Game!</div>
+      <div>My First Guessing Game!</div>
+      <div>My First Guessing Game!</div>
+      <div>My First Guessing Game!</div>
+    </div>
+
+    <div class="center">
+  <h3 id="subtitle">Guess a number between 1-100!</h3>
+</div>
+
+<div id='guess-feedback' class='center'>
+  <h4></h4>
+</div>
+
+<div id='highlow-feedback' class='center'>
+  <h4></h4>
+</div>
+
+<div id='hint-feedback' class='center'>
+  <h4></h4>
+</div>
+
+<h2>previouse Guesses</h2>
+
+<div class="wrapper">
+        <ul id="guess-list">
+          <li class="guess"></li>
+          <li class="guess"></li>
+          <li class="guess"></li>
+          <li class="guess"></li>
+          <li class="guess"></li>
+
+        </ul>
+</div>
+
+
+<input type="text" placeholder="Enter guess here!">	
+<button id = "submit" class="glow-on-hover" type="button">Submit Guess</button>
+<button class="glow-on-hover" type="button" value="Play Again" onClick="document.location.reload(true)">Play Again</button>
+<button id = "hint"   class="glow-on-hover" type="button">Hint</button>
+
+
+<div class="container">
+  <img src="https://media.giphy.com/media/26ufkBRB1E836CxYA/giphy.gif" 
+  style="margin: 10px 10px 10px 10px;" />
+</div>
+
+    <script src='js/guessing-game.js'></script>
+  </body>
+
+</html>
